@@ -299,7 +299,6 @@ font-family: 'Open Sans Condensed', sans-serif;
   display: grid;
   width: 480;
   max-height: 400px;
-  border-right: 2px solid lightgray;
 }
 .contact-info {
   display: grid;

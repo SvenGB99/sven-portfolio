@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Steve's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body class="grid-contianer">
+
+    <nav class="navigation">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <div class="sidenav-social">
+                <a class="sl1" href="https://github.com/SvenGB99" target="_blank"><img class="sll git" src="images/icon/logo-github.svg" alt="github logo"></img></a>
+                <a class="sl2" href="https://twitter.com/SvenGB" target="_blank"><img class="sll twitter" src="images/icon/logo-twitter.svg" alt="twitter logo"></img ></a>
+                <a class="sl3" href="https://www.linkedin.com/in/rausteve/" target="_blank"><img class="sll linkedin" src="images/icon/logo-linkedin.svg" alt="linked-in logo"></img></a>
+            </div>
+        </div>
+          
+          
+          <!-- Use any element to open the sidenav -->
+          <div class="logo-box">
+            <span onclick="openNav()" class="logo-name">Sven <img class="logo-img" src="images/icon-red-r.gif"></span>
+          </div>
+          <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page  -->
+          <!-- <div id="main">
+            ...
+          </div> -->
+    </nav>
+<div class="main">
+
+<!-- jumbotron / landing spot -->
+    
+        <section class="jumbotron">
+            <img class="jumbo-logo" src="images/van_can_18.jpg" alt="vancouver from horseshoe bay ferry">
+            <div class="jumbo-float">
+                <p> Sven &nbsp;<img class="logo-float" src="images/icon-red-r.png" alt="red r logo for sven r.">&nbsp; Designs</p>
+            </div>
+        </section>
+        
+
+<!-- about -->
+        <article class="about" id="about">
+            <img class="about-logo" src="images/phs (1 of 1).jpg" alt=" photo of Sven R">
+            <p>Hey there my Name is Sven.
+                I'm a creative with a sales and photography background that is now doing Front End Web Design.
+                My experiance comes from travaling across Canada and working for some of the largest retailers, and some of the smallest. 
+                The best thing is I bring this experiance with me to make your new site the best it can be.  </p>
+        </article>
+
+<!-- services -->
+        <section class="services" id="services">
+            <article class="service-1 card cb">
+                <h1 class="title">Search Engin Optimization</h1>
+                <h2 class="title-2">(SEO)</h2>
+                <img class="about-logo" src="images/seo.gif" alt="placeholder till image found">
+                <p>If clients can't find you they can't chose you. Making sure that you have the most relevent key words for your buisness is top priority next to brand idenity and user interfaceing. I will make sure you are in the top three if not #1 when people look for your service.</p>
+            </article>
+
+            <article class="service-2 card cb">
+                <h1 class="title">Responsive Design</h1>
+                <img class="about-logo" src="images/responsive_design.gif" alt="placeholder till image found">
+                <p>From the smallest device to the largest screens and no matter the resolution, your clients should be able to view your site and find the key information they are looking for.</p>
+            </article>
+
+            <article class="service-3 card">
+                <h1 class="title">Renovations</h1>
+                <img class="about-logo" src="images/reno.gif" alt="placeholder till image found">
+                <p>So you have a website... how old is it? does it attract clients to you? is it up to the standards that are set out by the W3C? these are things we can deal with and more. </p>
+            </article>
+
+            <article class="service-4 card">
+                <h1 class="title">Other Services</h1>
+                <img class="about-logo" src="images/icon-red-r.png" alt="placeholder till image found">
+                <p>From Images to a Sales platform, I offer a wide veriaty of skills that only a person with my experiances can give. </p>
+            </article>
+        </section>
+
+        <section class="portfolios" id="portfolio">
+            <a href="https://svengb99.github.io/tech-project-3/" target="_blank">
+            <article class="port-1 card">
+                <h1 class="title">Online Registration form</h1>
+                <img class="card-img" src="images/project3-registration.png" alt="image of project 3. the form.">
+                <p>this was one of the first projects the course I took had us make. A simple yet detailed Registration form with interactive fields. </p>
+            </article>
+            </a>
+
+            <a href="https://svengb99.github.io/tech-project-5/" target="_blank">
+            <article class="port-2 card c-b">
+                <h1 class="title">Image Gallery</h1>
+                <img class="card-img" src="images/project5-gallery.png" alt="image of the gallery project">
+                <p> On the serfice this looks like a simple Gallery, but it showed me how to intigrate Javascript into webpage to creat a dynamic display for images.</p>
+            </article>
+            </a>
+
+            <a href="https://svengb99.github.io/Tech-project-6/">
+            <article class="port-3 card c-b">
+                <h1 class="title">Game Show</h1>
+                <img class="card-img" src="images/project6-wheel-of-sucsess.png" alt="image of the game show project">
+                <p>A simple word guessing game that taught me how to code more complex Javascript to alowe for a random phrase every time. Try your luck and see if you can guess the phrase.</p>
+            </article>
+            </a>
+
+            <a href="https://svengb99.github.io/tech-project-7/" target="_blank">
+            <article class="port-4 card c-b">
+                <h1 class="title">Web App</h1>
+                <img class="card-img" src="images/project7-webapp.png" alt="image of the webapp project">
+                <p>This is the WebApp project that was set out to take all elements of design and implement them all togeather.  </p>
+            </article>
+            </a>
+        </section>
+    </div>
+    
+
+    <footer class="footer">
+        <section class="contact-info" id="contact">
+            <h2 class="fch">Get in touch</h2>
+        
+            <p class="number">Phone : &nbsp;<a class="link" href="tel:+1-236-562-7836"> (236) 562-7836</a></p>
+            <p class="mail">E-Mail : &nbsp;<a class="link" href="mailto: sven@svenrphoto.com"> info@svenrdesigns.com</a></p>
+        </section>
+
+        <section class="map" id="map">
+            <iframe class="mi" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21180.639721485986!2d-123.37673205564336!3d48.42620777182826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1624987663626!5m2!1sen!2sca" width="400" height="400" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </footer>
+</body>
+<script src="js/app.js"></script>
+</html>

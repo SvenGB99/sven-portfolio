@@ -9,6 +9,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 } */
 /* mobile first @ 360px */
 
+
 .cb {
   border-bottom: 2px solid rgba(131, 129, 129, 0.404);
     border-bottom-left-radius: 8px;
@@ -21,7 +22,7 @@ font-family: 'Open Sans Condensed', sans-serif;
   padding: 5px;
 }
 .grid-container {
-    max-width: 360px;
+    max-width: 767px;
     margin: 10px 0;
     display: grid;
     grid-template-columns: 100%;
@@ -138,13 +139,17 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
   /* main */
-  .main {
-    max-width: 360px;
+  .mainb {
+    max-width: 767px;
 }
 /* jumbotron? */
 
+.jumbotron {
+  max-width: 767px;
+}
   .jumbo-logo {
-    width: 360px;
+    min-width: 350px;
+    max-width: 767px;
 }
 .jumbo-float {
     position: absolute;
@@ -168,7 +173,7 @@ font-family: 'Open Sans Condensed', sans-serif;
  /* about */
   
  .about {
-    max-width:360px;
+    min-width:360px;
     max-height: 180px;
     display: grid;
     grid-template-columns: 33% 66%;
@@ -200,7 +205,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 .services,
 .portfolios {
-  max-width: 360px;  
+  min-width: 360px;  
   padding: 5px 0;
   margin: 0;   
 }
@@ -283,7 +288,7 @@ font-family: 'Open Sans Condensed', sans-serif;
   grid-template-columns: 100%;
   grid-template-rows: auto;
     height: 350px;
-    max-width: 360px;
+    min-width: 360px;
     padding: 0;
     margin: 0; 
     background-color: rgb(71, 125, 175);
@@ -352,4 +357,36 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 .link:visited {
    color: rgb(170, 170, 170);
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    min-width:768px;
+  }
+
+  .mainb {
+    min-width: 768px;
+  }
+
+  /* .jumbo-logo {
+    min-width: 768px;
+  } */
+
+  .about {
+    min-width: 768px;
+  }
+
+  .card {
+    min-width: 768px;
+    grid-template-columns: 50% 50%;
+  }
+  .footer {
+    min-width: 768px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+  }
+
+  .map {
+    border-left: 2px solid lightgray;
+  }
 }

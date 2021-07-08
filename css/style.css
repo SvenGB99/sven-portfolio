@@ -215,6 +215,9 @@ font-family: 'Open Sans Condensed', sans-serif;
   margin-bottom: 5px;
   height: 320px;
 }
+.card-logo {
+  max-height: 150px;
+}
 
 .title {
   font-size: 1.25em;
@@ -307,5 +310,29 @@ font-family: 'Open Sans Condensed', sans-serif;
 
   /* /jumbotron */
 
+  .card-logo {
+    max-height: 200px;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+
+.about-logo{
+  max-height: 300px;
+}
+.portfolios {
+  display: grid;
+  background-color: rgba(54, 112, 153, 0.404);
+}
+.services,
+.portfolios {
+  grid-template-columns: 50% 1fr;
+  grid-gap: 10px;
+}
+.card {
+  border: none;
+}
 
 }

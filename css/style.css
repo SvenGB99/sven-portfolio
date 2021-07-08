@@ -191,6 +191,8 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .about p {
+  display: flex;
+  align-self: center;
   font-size: .75em;
   padding-right: 10px;
 }
@@ -286,5 +288,20 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 @media (min-width: 768px) {
+
+  /* jumbotron */
+
+  .jumbo-float {
+    top: 120px;
+  }
+  .jumbo-float p {
+    font-size: 1.5em;
+  }
+  .logo-float {
+    max-height: 3em;
+  }
+
+  /* /jumbotron */
+
 
 }

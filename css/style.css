@@ -220,7 +220,11 @@ font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1.25em;
   margin: 0 0 2px;
 }
+.title-2{
+  font-size: .75em;
+  margin: 2px 0 0;
 
+}
 .card p {
   font-size: .75em;
 }

@@ -1,0 +1,423 @@
+/* alt font family
+font-family: 'Exo', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+ */
+
+/* * {
+
+} */
+/* mobile first @ 360px */
+
+
+.cb {
+  border-bottom: 2px solid rgba(131, 129, 129, 0.404);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.c-b {
+  border-radius: 8px;
+  background-color: rgba(135, 187, 223, .404);
+  padding: 5px;
+}
+.grid-container {
+    max-width: 767px;
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "navigation"
+    "main"
+    "footer";
+}
+
+.logo-box {
+    display: grid;
+    position: fixed;
+    margin-left:15px;
+    margin-top: 0;
+    padding:15px 5px 3px 5px;
+    background-color: rgba(131, 129, 129, 0.404);
+    border-radius:0 0 8px 8px;
+    border:2px solid white;
+    border-top: none;
+}
+  
+.logo-box:hover{
+    cursor: pointer;
+    background-color: rgba(135, 187, 223, .404);
+}
+
+.logo-name {
+    font-size: .5em;
+    display: flex;
+    align-items: center;
+    font-family: 'Exo', sans-serif;
+}
+.logo-img {
+    height: 25px;
+    /* display: flex; */
+}
+
+/* side nav */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b9b9b9;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Open sans';
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .sl1{
+    grid-column-start: 2;
+  }
+.sl2 {
+    grid-column-start: 3;
+}
+.sl3 {
+    grid-column-start: 4;
+}
+.sll {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+}
+.sidenav-social{
+    display: grid;
+    grid-template-columns: repeat(5, 45px); 
+}
+.sidenav-social a{
+    padding: 0;
+}
+
+.sidenav-social a:hover {
+    background: rgba(125, 125, 125, .404) ;
+}
+
+  /* main */
+  .mainb {
+    max-width: 767px;
+}
+/* jumbotron? */
+
+.jumbotron {
+  max-width: 767px;
+}
+  .jumbo-logo {
+    display: flex;
+    align-content: stretch;
+    min-width: 350px;
+    max-width: 767px;
+}
+.jumbo-float {
+    position: absolute;
+    left: 31%;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.829);
+}
+.jumbo-float p {
+    font-family: 'Exo', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: .75em;
+    margin: 0;
+    color: white;
+}
+
+
+ /* about */
+  
+ .about {
+    min-width:360px;
+    max-height: 180px;
+    display: grid;
+    grid-template-columns: 33% 66%;
+    padding: 5px 0;
+    margin: 0 10px;
+}
+
+.about-logo {
+  max-height: 100px;
+  margin: 5px 10px;
+  grid-column-start: 1;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
+.about p {
+  display: flex;
+  align-self: center;
+  grid-column-start: 2;
+  font-size: .8em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+ .logo-float {
+   height: 20px;
+ }
+/* services */
+
+.services,
+.portfolios {
+  min-width: 360px;  
+  padding: 5px 0;
+  margin: 0;   
+}
+
+.card {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    margin: 0 auto 10px auto;
+    max-height: 300px;
+}
+
+.card p{
+  color: black;
+  font-size: .75em;
+  padding: 2px 5px;
+}
+.card-img {
+    height: 100px;
+    padding: 10px;
+}
+.title,
+.title-2 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  font-family: 'Exo', sans-serif; 
+  padding-bottom: 0;
+  margin: 0;
+}
+.title-2{
+  padding-top: 3px;
+}
+
+.service-1{
+    grid-column-start: 1;
+}
+.title-1 {
+    margin: 0;
+}
+.service-2 {
+  grid-row-start: 2;
+}
+
+.service-3 {
+    grid-row-start: 3;
+}
+
+.service-4 {
+    grid-row-start: 4;
+    margin-bottom: 0;
+}
+.services {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* portfolios */
+
+.portfolios {
+    grid-gap: 20px;
+    border-radius: 8px;
+}
+.portfolios a {
+    text-decoration: none;
+    decoration: none;
+}
+.portfolios a:hover {
+   background-color : rgba(125, 125, 125, .404);
+}
+.portfolios a:visited {
+    color: black;
+}
+
+
+
+/* Footer */
+
+.footer {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+    height: 350px;
+    min-width: 360px;
+    padding: 0;
+    margin: 0; 
+    background-color: rgb(71, 125, 175);
+    border-radius: 8px 8px 0 0;    
+}
+#contact,
+#map {
+  
+}
+
+.contact-info {
+  grid-column-start: 1;
+  display: grid;
+  width: 480;
+  max-height: 400px;
+}
+.contact-info {
+  display: grid;
+  grid-template-rows: 30px 20px 20px;
+  padding-top: 10px;
+  max-height: 90px;
+}
+
+.fch {
+  grid-row-start: 1;
+}
+.number {
+  display: flex;
+  align-items: center;
+  grid-row-start: 2;
+  max-height: 30px;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  grid-row-start: 3;
+  max-height: 30px;
+}
+
+
+.contact-info h2,
+.contact-info p{
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-grow: 5;
+  margin: 0;
+  padding: 0;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+.mi {
+
+  max-height: 200px;
+  max-width: 200px;
+}
+.link {
+  text-decoration:none;
+  color: white;
+}
+.link:hover {
+  background-color : rgba(125, 125, 125, .404);
+}
+.link:visited {
+   color: rgb(170, 170, 170);
+}
+
+@media (min-width: 768px) {
+  .grid-container {
+    min-width:768px;
+    max-width: 1200px;
+  }
+
+  .mainb {
+    min-width: 768px;
+  }
+
+  /* .jumbo-logo {
+    min-width: 768px;
+  } */
+
+  .about {
+    min-width: 768px;
+  }
+
+  .card {
+    min-width: 768px;
+    grid-template-columns: 50% 50%;
+  }
+  .footer {
+    min-width: 768px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+  }
+
+  .map {
+    border-left: 2px solid lightgray;
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid-container {
+    max-width: 1920px;
+  }
+
+  .mainb {
+    min-width: 1280PX;
+  }
+
+  .jumbo-logo {
+    min-width: 1280px;
+  }
+
+  .about {
+    min-width: 1280px;
+  }
+
+  .card {
+    min-width: 1280px;
+    grid-template-columns: 50% 50%;
+  }
+  .footer {
+    min-width: 1280px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+  }
+}

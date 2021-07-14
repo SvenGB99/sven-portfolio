@@ -80,6 +80,8 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .logo-box {
+  color:white;
+  font-size: 1.5em;
   display: grid;
   position: fixed;
   margin-left:15px;

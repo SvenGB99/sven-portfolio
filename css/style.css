@@ -152,19 +152,19 @@ font-family: 'Open Sans Condensed', sans-serif;
 .jumbo-float {
   position: absolute;
   width: 100%;
-  top: 60px;
+  top: 8%;
   background-color: rgba(0, 0, 0, 0.315);
   padding: 10px;
   /* border-radius: 10px; */
-  border-top: 2px solid rgba(255, 255, 255, 0.829);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.829);
+  border-top: 2px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 .jumbo-float p {
   font-family: 'Exo', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: .75em;
+  font-size: 1.5em;
   margin: 0;
   color: white;
 }
@@ -304,7 +304,7 @@ font-family: 'Open Sans Condensed', sans-serif;
     top: 120px;
   }
   .jumbo-float p {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
   .logo-float {
     max-height: 3em;
@@ -324,7 +324,7 @@ font-family: 'Open Sans Condensed', sans-serif;
   /* jumbotron */
 
   .jumbo-float {
-    top: 300px;
+    top: 10%;
   }
   .jumbo-float p {
     font-size: 2.5em;
@@ -350,4 +350,11 @@ font-family: 'Open Sans Condensed', sans-serif;
   border: none;
 }
 
+}
+
+@media (min-width: 1440px) {
+
+  .jumbo-float {
+    top: 25%;
+  }
 }

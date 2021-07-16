@@ -86,7 +86,7 @@ font-family: 'Open Sans Condensed', sans-serif;
   position: fixed;
   margin-left:15px;
   margin-top: 0;
-  padding:15px 5px 3px 5px;
+  padding:5px 5px 3px 5px;
   background-color: rgba(131, 129, 129, 0.404);
   border-radius:0 0 8px 8px;
   border:2px solid white;
@@ -100,13 +100,13 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .logo-name {
-  font-size: .5em;
+  /* font-size: .5em; */
   display: flex;
   align-items: center;
   font-family: 'Exo', sans-serif;
 }
 .logo-img {
-  height: 25px;
+  height: 35px;
 }
 
 .sl1{
@@ -135,6 +135,12 @@ font-family: 'Open Sans Condensed', sans-serif;
   background: rgba(125, 125, 125, .404) ;
 }
 
+.m-t {
+  font-size: .45em;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
 /*  /side nav */
 
 /* Jumbotron */
@@ -178,9 +184,10 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 .about {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   border-bottom: 2px solid rgb(165, 159, 159);
   margin-bottom: 10px;
+  
 }
 
 .about-logo {
@@ -195,8 +202,12 @@ font-family: 'Open Sans Condensed', sans-serif;
 .about p {
   display: flex;
   align-self: center;
-  font-size: .75em;
-  padding-right: 10px;
+  justify-self: center;
+  max-width: 90%;
+
+  
+  /* font-size: .75em; */
+  /* padding-right: 10px; */
 }
 
 /* /about */
@@ -215,7 +226,7 @@ font-family: 'Open Sans Condensed', sans-serif;
   grid-template-columns: 1, 1fr;
   justify-items: center;
   margin-bottom: 5px;
-  height: 320px;
+  height: 400px;
 }
 .card-logo {
   max-height: 150px;
@@ -223,15 +234,17 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 .title {
   font-size: 1.25em;
-  margin: 0 0 2px;
+  margin: 4px 0 2px;
 }
 .title-2{
-  font-size: .75em;
+  /* font-size: .75em; */
   margin: 2px 0 0;
 
 }
 .card p {
-  font-size: .75em;
+  /* font-size: .75em; */
+  max-width: 90%;
+
 }
 
 /* /services */
@@ -311,7 +324,18 @@ font-family: 'Open Sans Condensed', sans-serif;
   }
 
   /* /jumbotron */
+  /* About */
 
+  .about {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(1, 1fr);
+    border-bottom: 2px solid rgb(165, 159, 159);
+    margin-bottom: 10px;
+    
+  }
+
+  /* /about */
   .card-logo {
     max-height: 200px;
   }
@@ -335,7 +359,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 
   /* /jumbotron */
 .about-logo{
-  max-height: 300px;
+  max-height: 200px;
 }
 .portfolios {
   display: grid;

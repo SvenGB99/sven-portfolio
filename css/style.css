@@ -363,7 +363,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 .portfolios {
   display: grid;
-  background-color: rgba(54, 112, 153, 0.404);
+  /* background-color: rgba(54, 112, 153, 0.404); */
 }
 .services,
 .portfolios {

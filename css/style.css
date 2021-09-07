@@ -44,13 +44,13 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 /* The navigation menu links */
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 15px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
   color: #b9b9b9;
   display: block;
   transition: 0.3s;
-  font-family: 'Open sans';
+  font-family:'Exo', 'Open sans';
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -165,7 +165,7 @@ font-family: 'Open Sans Condensed', sans-serif;
   border-top: 2px solid rgba(255, 255, 255, 0.5);
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
-.jumbo-float p {
+.jumbo-float h1 {
   font-family: 'Exo', sans-serif;
   display: flex;
   align-items: center;
@@ -218,14 +218,15 @@ font-family: 'Open Sans Condensed', sans-serif;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: auto;
-  margin: 0 10px 10px;
+  grid-gap:10px;
+  /* margin: 0 10px 10px; */
 }
 
 .card {
   display: grid;
   grid-template-columns: 1, 1fr;
   justify-items: center;
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   height: 400px;
 }
 .card-logo {
@@ -256,13 +257,12 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 .cb {
   border-bottom: 2px solid rgba(131, 129, 129, 0.404);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 8px;
 }
 .c-b {
   border-radius: 8px;
   background-color: rgba(135, 187, 223, .404);
-  padding: 5px;
+  /* padding: 5px; */
 }
 .portfolios a {
   text-decoration: none;
@@ -270,6 +270,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 .portfolios a:hover {
   background-color : rgba(125, 125, 125, .404);
+  border-radius: 8px;
 }
 .portfolios a:visited {
    color: black;
@@ -285,6 +286,7 @@ font-family: 'Open Sans Condensed', sans-serif;
   justify-items: center;
   background-color: rgb(71, 125, 175);
   padding-bottom: 20px;
+  margin-top: 10px;
 }
 
 .fch,

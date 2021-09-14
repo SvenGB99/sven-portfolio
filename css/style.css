@@ -212,6 +212,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 /* /about */
 
+
 /* services */
 
 .services {
@@ -363,6 +364,10 @@ font-family: 'Open Sans Condensed', sans-serif;
 .about-logo{
   max-height: 200px;
 }
+
+.about{
+  padding: 50px 0;
+}
 .portfolios {
   display: grid;
   /* background-color: rgba(54, 112, 153, 0.404); */
@@ -374,6 +379,16 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 .card {
   border: none;
+}
+
+.card-img{
+  transition: transform .2s; /*animation*/
+  height: 175px;
+  z-index: 0;
+}
+
+.card-img:hover{
+  transform: scale(1.5);
 }
 
 }
